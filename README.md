@@ -1,6 +1,8 @@
 # bashMenu
 Bash script application that displays all the knowledge gathered during my UNIX Operating Systems course.
 
+
+
 1.  This is a bash script program to process a data file based on a menu shown to the user. 
 
 The format of the data file is as follows...
@@ -35,28 +37,9 @@ The format of the data file is as follows...
 
  
 
-2.  The program will show the following menu to the user. Every time the menu is shown to the user, the screen should be cleared and the menu should appear somewhere in the middle of the screen.
- 
-===========================
-          MENU
-===========================
-
-(p, P) Print users info
-
-(a, A) Add new user
-
-(s, S) Search user
-
-(d, D) Delete user
-
-(x,X) Exit
-
-
-Enter your choice:
-
+2.  The program will display a menu to the user. Every time the menu is shown to the user, the screen should be cleared and the menu should appear somewhere in the middle of the screen.
  
 
- 
 
 3.  If the user selects the print option, then the program should:
 
@@ -88,10 +71,10 @@ Enter your choice:
 
  
 
-  6.  If the user selects delete option, the program will:
+6.  If the user selects delete option, the program will:
 
-    a.  Ask the first name of the user to be deleted from the data file and then
+  a.  Ask the first name of the user to be deleted from the data file and then
 
-    b.  Delete all the matching records
+  b.  Delete all the matching records
 
-    c.  Note that, the user can enter the first name in any capitalization, the program will delete any matching records.
+  c.  Note that, the user can enter the first name in any capitalization, the program will delete any matching records.
